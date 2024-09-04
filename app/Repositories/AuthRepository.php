@@ -28,8 +28,6 @@ class AuthRepository implements AuthInterface
             $data['email'],
             $otp_code['code']
         ));
-
-
     }
 
     public function checkOtpCode(array $data)
